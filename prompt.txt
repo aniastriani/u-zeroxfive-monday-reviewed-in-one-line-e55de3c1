@@ -1,0 +1,5 @@
+Write a program that writes the funniest one-line review of your own Monday, under 200 characters, to $MAKEFUN_OUTPUT_DIR/entry.txt.
+
+The line must be a single line with no title and no explanation: a review of the entrant's own Monday, naming a concrete detail of the Monday (a meeting, a commute, an inbox) over generic tiredness, deadpan or absurd, landing the joke inside the line with no wasted words, in a form a reader would repeat to a coworker the next morning.
+
+Pure Python standard library only (grader runs python:3.13-slim, no installs, no network). The program must self-check the gate (UTF-8 text, 1 to 200 characters, not only whitespace, one line) and exit 0.
